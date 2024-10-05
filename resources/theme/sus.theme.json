@@ -1,0 +1,25 @@
+{
+  "name": "Theme",
+  "author": "YourCompany",
+  "dark": true,
+  "editorScheme": "/kake.xml",
+  "colors": {
+    "primaryRed": "#821010",
+    "primaryGrey": "#0033ff",
+    "primary2": "#aa00ff",
+    "primary3": "#ff002f",
+    "primary4": "#11ff00"
+  },
+  "ui": {
+    "Button.background": "primaryRed",
+    "*": {
+      "background": "primaryGrey"
+    },
+    "Editor": {
+      "background": "primary2",
+      "foreground": "primary3",
+      "shortcutForeground": "primary4"
+    }
+  }
+
+}
