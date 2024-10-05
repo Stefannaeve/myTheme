@@ -4,6 +4,10 @@
   "dark": true,
   "editorScheme": "/kake.xml",
   "colors": {
+    "primaryWhite": "#EFF5FB",
+    "primaryBlack": "#1D1E20",
+    "grey-400": "#212224",
+    "grey-500": "#27282a",
     "primaryRed": "#821010",
     "primaryGrey": "#0033ff",
     "primary2": "#aa00ff",
@@ -13,11 +17,13 @@
   "ui": {
     "Button.background": "primaryRed",
     "*": {
-      "background": "primaryGrey"
+      "background": "grey-500"
     },
+    "window": "primaryBlack",
+    "textText": "primary2",
     "Editor": {
-      "background": "primary2",
-      "foreground": "primary3",
+      "background": "grey-400",
+      "foreground": "primaryWhite",
       "shortcutForeground": "primary4"
     }
   }
